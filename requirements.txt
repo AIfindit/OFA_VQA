@@ -1,7 +1,6 @@
 flask
-torch
+torch==2.1.0
+transformers==4.36.2
 torchvision
-git+https://github.com/OFA-Sys/OFA.git@feature/add_transformers#egg=transformers&subdirectory=transformers
 Pillow
 requests
-gunicorn
