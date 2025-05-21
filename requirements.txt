@@ -4,3 +4,4 @@ torchvision
 transformers
 Pillow
 requests
+gunicorn
