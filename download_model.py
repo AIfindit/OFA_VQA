@@ -1,3 +1,3 @@
 from transformers import OFATokenizer, OFAModel
-OFATokenizer.from_pretrained("allenai/ofa-base")
-OFAModel.from_pretrained("allenai/ofa-base")
+OFATokenizer.from_pretrained("OFA-Sys/ofa-huge")
+OFAModel.from_pretrained("OFA-Sys/ofa-huge")
