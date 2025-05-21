@@ -1,7 +1,7 @@
 flask
 torch
 torchvision
-transformers
+git+https://github.com/OFA-Sys/OFA.git@feature/add_transformers#egg=ofa_transformers&subdirectory=transformers
 Pillow
 requests
 gunicorn
