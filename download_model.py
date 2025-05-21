@@ -1,3 +1,8 @@
 from transformers import OFATokenizer, OFAModel
-OFATokenizer.from_pretrained("OFA-Sys/ofa-huge")
-OFAModel.from_pretrained("OFA-Sys/ofa-huge")
+
+print("Iniciando download do modelo...")
+
+tokenizer = OFATokenizer.from_pretrained("OFA-Sys/ofa-base")
+model = OFAModel.from_pretrained("OFA-Sys/ofa-base")
+
+print("Download concluído.")
